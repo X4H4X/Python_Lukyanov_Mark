@@ -126,11 +126,6 @@ class VPNApp(ctk.CTk):
         for widget in self.winfo_children():
             widget.destroy()
 
-if __name__ == "__main__":
-    app = VPNApp()
-    app.mainloop()
-
-
 Код представляет собой заготовку для десктопного VPN-клиента на Python с использованием библиотек CustomTkinter (интерфейс) и sqlite3 (база данных).
 
 1. Системные переменные (состояние приложения)
