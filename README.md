@@ -15,7 +15,6 @@ import socket
 import os
 import sys
 
-Настройка темы
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
@@ -29,7 +28,6 @@ class VPNApp(ctk.CTk):
         self.vpn_process = None
         self.current_user = None
         
-        # Сначала показываем экран логина
         self.show_login_screen()
 
     def db_init(self):
